@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8BF07B2-EF65-C17C-9E1A-6CD5A8F8C87F" name="T_IFS_DEBITO">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 00:54:33 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_transacao" id="A7843FF3-DFE4-B83F-A43E-68FCA45E26C3">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:02:54 UTC</createdTime>
+<generatorID>3812B679-D2D8-9CD6-BA69-472A20ED3461</generatorID>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<referedAttribute>56D27050-552C-F256-B12F-E1D0CC4382AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_comercio" id="F00D1466-C02C-E1BD-BCED-D629BA690D8D">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:02:54 UTC</createdTime>
+<generatorID>3812B679-D2D8-9CD6-BA69-472A20ED3461</generatorID>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<referedAttribute>1DA559BE-2231-63CF-FC8F-BDAFAE676065</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_destinatario" id="C3A965AD-B0AA-B9A0-CF3C-8FDA09F07141">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:04:44 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agencia_destinatario" id="69CB193D-4BB4-18D4-5785-A2F1928FA755">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:04:56 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conta_destinatario" id="3B969B34-0F15-C2FF-8710-331BB901CEC0">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:04:51 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F32D45BD-B0EA-F814-52BF-BA21AC663D92" name="T_IFS_DEBITO PK">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:02:54 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7843FF3-DFE4-B83F-A43E-68FCA45E26C3</attributeRef>
+<attributeRef>F00D1466-C02C-E1BD-BCED-D629BA690D8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

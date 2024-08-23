@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A51E5DC-7810-8984-6BD1-674A120E015E" name="T_IFS_RECEITA">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 00:54:26 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_transacao" id="BCB571BD-16D9-554F-B13B-C6F9488C29D4">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:02:39 UTC</createdTime>
+<generatorID>4B7525D2-327B-BA74-5367-F738863D2500</generatorID>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<referedAttribute>56D27050-552C-F256-B12F-E1D0CC4382AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_comercio" id="52189842-06FB-232D-DC06-1F283505BE66">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:02:39 UTC</createdTime>
+<generatorID>4B7525D2-327B-BA74-5367-F738863D2500</generatorID>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<referedAttribute>1DA559BE-2231-63CF-FC8F-BDAFAE676065</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_remetente" id="770C0E25-4DB6-A502-9301-A0C4A99E86A5">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:03:26 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conta_remetente" id="4E08E196-EB81-E195-4EDE-D7A392A58519">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:03:37 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agencia_remetente" id="BE9E2BBE-5BB8-8E6E-29A5-4AE60B9F06EB">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:03:55 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0999B607-0AB4-83ED-9509-C542B43A1321" name="T_IFS_RECEITA PK">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 01:02:39 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCB571BD-16D9-554F-B13B-C6F9488C29D4</attributeRef>
+<attributeRef>52189842-06FB-232D-DC06-1F283505BE66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FDBEC89-5E24-B8E5-0AF8-C239A27ADA83" name="T_IFS_Pessoa">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-01 15:44:38 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="email_usuario" id="B157E932-0E10-9F3D-FE68-613C6D30732B">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-01 15:46:16 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_comercio" id="D1C8DA89-DC9C-E66A-70EB-41D575B66EE5">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-01 15:48:52 UTC</createdTime>
+<generatorID>366EF2DC-C7B2-DE20-3E50-66B33EF11EFF</generatorID>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<referedAttribute>3843085F-2529-1542-FAB3-D08AFA15E06D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha_usuario" id="E2F362EA-1A47-5D15-CF74-3753F8BCC9CA">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-11 00:50:45 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_pessoa" id="43668A59-FD31-CA7C-74DD-077432A3AF81">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-01 15:45:15 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome_pessoa" id="832E8840-62CC-74A7-4730-180A23382A0A">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-01 15:45:59 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D984973-7F1A-2867-287A-54CFBF5E47A9" name="T_IFS_Pessoa PK">
+<createdBy>Wes</createdBy>
+<createdTime>2024-06-01 15:46:32 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<engineerTo>
+<item key="ECE63EE5-0965-4A32-4CA9-728523A23502" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B157E932-0E10-9F3D-FE68-613C6D30732B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
