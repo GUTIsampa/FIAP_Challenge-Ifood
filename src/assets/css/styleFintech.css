@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Alterou cor*/
+:root {
+    --vermelho: #E91E2C;
+    --branco: #fff
+}
+
+
+* {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+
+body {
+    background-image: url(/assets/images/TelaFundoIfood.png);
+    background-attachment: fixed;
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.titulo {
+    color: var(--branco);
+}
+
+
+.logofin {
+width: 10em;    
+border-radius: 10px;
+box-shadow: 10px 10px 10px;
+
+}
+
+.bv {
+    margin-top: 0;
+
+}
+
+.caixa{
+    margin-bottom: 1em;
+    
+}
+
+.inserir{
+    margin-bottom: 10px;
+}
+
+.botao{
+    background-color: var(--branco);
+    border-width: 1px;
+    border-color:  var(--vermelho);
+    color: var(--vermelho);
+    
+
+}
+
+.icones2{
+    color: var(--vermelho)
+}
+
+.botao:hover{
+    background-color:  var(--vermelho);
+    border-width: 1px;
+    border-color:var(--branco);
+    color: var(--branco);
+}
+
+.login {
+    border-width: 3px;
+    border-color: var(--vermelho);
+    height: auto;
+    box-shadow: 20px 20px 20px;
+}
+
+.esqueci {
+    text-decoration: none;
+    color: var(--vermelho);
+    font-size: 15px;
+}
+
+.esqueci:hover {
+    text-decoration: underline var(--vermelho);
+
+}
+
+.esquecer{
+    margin-bottom: 10px;
+}
+
+.divbotao1{
+    margin-bottom: 20px;
+}
+
+.ainda{
+    color: var(--vermelho);
+}
+
+.sac1{
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.sac1:hover{
+    text-decoration: underline;
+    color: var(--vermelho);
+}
+
+.ajuda{
+    margin-right: 8px;
+}
+
+.icones3{
+    margin-left: 2px;
+    margin-right: 8px;
+    font-size: 23px;
+}
+
+.redes{
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.mensagem-erro {
+    background-color: #E91E2C;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    width: 40%;
+}
+
+
+
+@media (max-height: 690px) {
+    .icones3 {
+    display: none;
+    }
+}
+
+@media (min-height: 1024px) {
+    .bv {
+        margin-bottom: 150px;
+    }
+    .logofin {
+        min-width: 280px;
+    }
+    .bemvindo {
+        font-size: 50px;
+    }
+}

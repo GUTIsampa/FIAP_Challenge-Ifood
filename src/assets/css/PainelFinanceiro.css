@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --vermelho: #E91E2C;
+    --branco: #fff
+}
+
+.titulo {
+    background-color: var(--vermelho);
+    display: flex;
+    justify-content: center;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid purple;
+}
+
+
+
