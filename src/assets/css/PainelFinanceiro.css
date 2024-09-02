@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Comfortaa", sans-serif;
 }
 
 :root {
@@ -10,9 +15,10 @@
 }
 
 .titulo {
-    background-color: var(--vermelho);
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 1.%;
 }
 
 .lista {
@@ -20,8 +26,104 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    border: 1px solid purple;
 }
+
+.navbar-nav {
+    display: flex;
+    gap: 3em;
+}
+
+
+.textLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menusandu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menusandu img {
+    width: 38px;
+}
+
+.fotoPerfil {
+    width: 40px;
+}
+
+.offcanvas-body {
+    display: flex;
+}
+
+.offcanvas-body ul {
+    justify-content: center;
+    
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logosanduba {
+    display: flex;
+    margin: 2em;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.nav-item {
+    display: flex;
+    gap: 1em;
+}
+
+.nav-item img {
+    width: 30px;
+}
+    
+.p-0 {
+    width: 100%;
+    border: 1.8em solid #33333354;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.icon {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.d-none {
+    display: none;
+}
+
+
+    @media (max-width: 990px) {
+        .offcanvas-body {
+            align-items: flex-start;
+        }
+
+        .titulo {
+            margin-top: 5%;
+        }
+        
+        .imgLogo {
+            width: 70px;
+            
+        }
+
+        
+    }
+
+
+
 
 
 
