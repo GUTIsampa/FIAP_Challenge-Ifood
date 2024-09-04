@@ -1,0 +1,67 @@
+
+.saldo{
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #E91E2C;
+    margin: auto;
+    width: 15em;
+    background-color: #faf8ef;
+}
+
+.valores{
+    text-align: center;
+    padding-top: 0.5em;
+
+}
+
+.valor{
+    color:green;
+    text-decoration: underline;
+}
+
+
+.ifinan{
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #E91E2C;
+    margin-top: 2em;
+}
+
+.legenda{
+color: #E91E2C;
+}
+
+.icones1{
+color: #E91E2C;
+}
+
+.avaliacao{
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #E91E2C;
+    margin: auto;
+    margin-top: 3em;
+    width: 30em;
+    background-color: #faf8ef;
+}
+
+.avaliacoes{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.coments{
+    margin-top: 2px;
+}
+
+.like{
+    color: green;
+}
+
+.dislike{
+    color:red;
+}
+
+.estrela{
+    color: rgb(204, 204, 23);
+}
