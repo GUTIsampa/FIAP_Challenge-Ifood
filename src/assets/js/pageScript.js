@@ -48,11 +48,22 @@ document.addEventListener('DOMContentLoaded', () => {
             loadContent(page);
         });
     });
+
     
     // Carrega o conteúdo inicial (Painel Financeiro)
     loadContent('PainelFinanceiro');
 });
 
+function selectNavItem(element) {
+    // Remove a classe 'nav-bar-active' de todos os itens
+    var items = document.querySelectorAll('.nav-item');
+    items.forEach(function(item) {
+        item.classList.remove("border-bottom","border-2");
+    });
+
+    // Adiciona a classe 'nav-bar-active' ao item clicado
+    element.classList.add("border-bottom","border-2");
+}
 
 
 

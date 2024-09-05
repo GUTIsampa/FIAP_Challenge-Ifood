@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/assets/css/PainelFinanceiro.css">
+    <link rel="stylesheet" href="/src/assets/css/Home.css">
     <link rel="stylesheet" href="/src/assets/css/bootstrap.min.css"> 
     <title id="titulo">Painel Financeiro</title>
 </head>
@@ -31,19 +31,19 @@
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav flex-grow-1 pe-3">
-                    <li class="nav-item">
+                    <li class="nav-item border-bottom border-2" onclick="selectNavItem(this)">
                     
-                        <a class="nav-link text-light border-bottom border-2" aria-current="page" href="#" data-page="PainelFinanceiro">Painel Financeiro</a>
+                        <a class="nav-link text-light" aria-current="page" href="#" data-page="PainelFinanceiro" >Painel Financeiro</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item " onclick="selectNavItem(this)">
                         
-                        <a class="nav-link text-light" href="#" data-page="Saldo" >Saldo</a>
+                        <a class="nav-link text-light" href="#" data-page="Saldo">Saldo</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" onclick="selectNavItem(this)">
                         
-                        <a class="nav-link text-light" href="#" data-page="Transferencias">Transferências</a>
+                        <a class="nav-link text-light" href="#" data-page="Transferencias ">Transferências</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" onclick="selectNavItem(this)">
         
                         <a class="nav-link text-light" href="#" data-page="Relatorios">Relatórios</a>
                     </li>
