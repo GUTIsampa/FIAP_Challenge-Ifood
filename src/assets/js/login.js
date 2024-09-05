@@ -10,5 +10,5 @@ function validaForm() {
         document.getElementById('error-message2').style.display = 'block';
         return false;
     }
-    window.location = "./assets/pages/PainelFinanceiro.html";
+    window.location = "./assets/pages/Home.html";
 }
