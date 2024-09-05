@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const contentDiv = document.getElementById('content');
     const navLinks = document.querySelectorAll('a[data-page]');
     
+    
     // Função para carregar o conteúdo
     function loadContent(page) {
         fetch(`/src/assets/pages/${page}.html`)
@@ -17,6 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 contentDiv.innerHTML = data;
                 updateActiveLink(page);
                 // Aqui você pode adicionar quaisquer scripts específicos para a página carregada
+            }).then(() => {
+                document.getElementById("titulo").textContent = `${page}`;
             })
             .catch(error => {
                 contentDiv.innerHTML = `<p class="text-danger">Ocorreu um erro ao carregar o conteúdo.</p>`;
