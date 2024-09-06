@@ -4,17 +4,48 @@
 
 <body>
   <div class = 'cointainer saldo'>
-    <h5 class="valores"> <i class="fa-solid fa-sack-dollar icones1"></i>  Seu saldo é de: <span class="valor"> 67.225</span></h5>
-</div>
+    <h5 class="valores"> <i class="fa-solid fa-sack-dollar icones1"></i>  Seu saldo é de: <span class="valor"><br/>R$ 67.225</span></h5>
+  </div>
 
-<div class="ifinan cointainer-fluid">
-    <h4>Faturamento</h4>
+    <div class="mesInfo my-5">
+      <div class="display-6 dropdown me-3">
+            <a class="nav-link dropdown-toggle text-danger" href="#" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="selectedOption">SETEMBRO</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                <li><a class="dropdown-item">Agosto</a></li>
+                <li><a class="dropdown-item">Julho</a></li>
+                <li><a class="dropdown-item">Junho</a></li>
+                <li><a class="dropdown-item">Maio</a></li>
+                <li><a class="dropdown-item">Abril</a></li>
+                <li><a class="dropdown-item">Março</a></li>
+                <li><a class="dropdown-item">Fevereiro</a></li>
+                <li><a class="dropdown-item">Janeiro</a></li>
+            </ul>
+        </div>
+        <div class="display-6 dropdown">
+            <a class="nav-link dropdown-toggle text-danger" href="#" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="selectedOption">2024</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item">2023</a></li>
+              <li><a class="dropdown-item">2022</a></li>
+              <li><a class="dropdown-item">2021</a></li>
+              <li><a class="dropdown-item">2020</a></li>
+              <li><a class="dropdown-item">2019</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="ifinan cointainer-fluid">
+
+    <h4 class="ms-2">Faturamento</h4>
     <table class="table">
-    <thead>
+    <thead class="legenda__titulo">
       <tr>
-        <th scope="col" class="legenda">Vendas da Loja</th>
-        <th scope="col" class="legenda">Vendas no App</th>
-        <th scope="col" class="legenda">Valor Líquido</th>
+        <th scope="col" class="legenda text-danger">Vendas da Loja</th>
+        <th scope="col" class="legenda text-danger">Vendas no App</th>
+        <th scope="col" class="legenda text-danger">Valor Líquido</th>
       </tr>
     </thead>
     <tbody>
@@ -26,14 +57,17 @@
   </table>
 </div>
 
+
+
 <div class="ifinan cointainer-fluid">
-    <h4>Despesas</h4>
+    
+    <h4 class="ms-2">Despesas</h4>
     <table class="table">
-    <thead>
+    <thead class="legenda__titulo">
       <tr>
-        <th scope="col" class="legenda">Despesas Fixas</th>
-        <th scope="col" class="legenda">Despesas Eventuais</th>
-        <th scope="col" class="legenda">Despesas Totais</th>
+        <th scope="col" class="legenda text-danger">Despesas Fixas</th>
+        <th scope="col" class="legenda text-danger">Despesas Eventuais</th>
+        <th scope="col" class="legenda text-danger">Despesas Totais</th>
       </tr>
     </thead>
     <tbody>
@@ -53,5 +87,7 @@
     <li class="coments"> <i class="fa-solid fa-star estrela"></i> Você obteve uma nota de 4.8 PARABÉNS!</li>
   </ul>
 </div>
+
+<script src="/src/assets/js/PainelFinanceiro.js" defer></script>
   
 </body>

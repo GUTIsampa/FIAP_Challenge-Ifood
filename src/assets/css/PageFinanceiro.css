@@ -11,12 +11,10 @@
 .valores{
     text-align: center;
     padding-top: 0.5em;
-
 }
 
 .valor{
     color:green;
-    text-decoration: underline;
 }
 
 
@@ -25,14 +23,15 @@
     border-radius: 8px;
     border-color: #E91E2C;
     margin-top: 2em;
-}
-
-.legenda{
-color: #E91E2C;
+    
 }
 
 .icones1{
 color: #E91E2C;
+}
+
+.mesInfo {
+    display: flex;
 }
 
 .avaliacao{
@@ -41,7 +40,7 @@ color: #E91E2C;
     border-color: #E91E2C;
     margin: auto;
     margin-top: 3em;
-    width: 30em;
+    width: 55vh;
     background-color: #faf8ef;
 }
 
@@ -64,4 +63,10 @@ color: #E91E2C;
 
 .estrela{
     color: rgb(204, 204, 23);
+}
+
+@media screen and (max-width: 990px) {
+    .avaliacao {
+        display: flex;
+    }
 }

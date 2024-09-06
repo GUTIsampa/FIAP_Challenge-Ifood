@@ -1,5 +1,9 @@
 // pageScript.js
 
+
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const contentDiv = document.getElementById('content');
     const navLinks = document.querySelectorAll('a[data-page]');
@@ -66,4 +70,37 @@ function selectNavItem(element) {
 }
 
 
+
+
+function sair() {
+    window.location = "../../index.html";
+}
+
+
+function loadPage(pageUrl, scriptUrl) {
+    const contentDiv = document.getElementById('content');
+    
+    // Carrega a página via fetch
+    fetch(pageUrl)
+        .then(response => response.text())
+        .then(html => {
+            contentDiv.innerHTML = html;
+
+            // Remove qualquer script antigo para evitar duplicações
+            const oldScript = document.getElementById('dynamicScript');
+            if (oldScript) {
+                oldScript.remove();
+            }
+
+            // Carrega o JavaScript específico da página
+            const script = document.createElement('script');
+            script.src = `/src/assets/js/${scriptUrl}`;
+            script.id = 'dynamicScript'; // Atribui um id para facilitar a remoção futura
+            script.defer = true;
+            document.body.appendChild(script);
+        })
+        .catch(error => {
+            console.error("Erro ao carregar a página: ", error);
+        });
+}
 
