@@ -1,0 +1,73 @@
+.quadro{
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #E91E2C;
+    margin-top: 2em;
+    background-color: #fff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; 
+  border-radius: 10%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black; 
+}
+
+.carousel-indicators .active {
+  background-color: black;} 
+
+.titulocarousel{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+@media (min-width: 500px) {
+  .quadro {
+  display: none;
+  }
+}
+
+.ticker-wrap {
+  overflow: hidden;
+  background: #faf8ef;
+  color: #000;
+  padding: 10px 0;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #E91E2C;
+  position: relative;
+}
+
+.ticker {
+  display: flex;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  animation: ticker 15s linear infinite;
+  width: 2000px
+
+}
+
+.ticker-item {
+  padding: 0 2rem;
+  font-size: 1.2rem;
+  flex: 0 0 auto;
+}
+
+@keyframes ticker {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+.positivos{
+  color: green;
+}

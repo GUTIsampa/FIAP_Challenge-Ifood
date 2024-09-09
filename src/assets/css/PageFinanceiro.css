@@ -23,6 +23,7 @@
     border-radius: 8px;
     border-color: #E91E2C;
     margin-top: 2em;
+    background-color: #fff;
     
 }
 
@@ -38,9 +39,9 @@ color: #E91E2C;
     border-style: solid;
     border-radius: 7px;
     border-color: #E91E2C;
-    margin: auto;
+    margin:auto;
+    width: 33vw;
     margin-top: 3em;
-    width: 55vh;
     background-color: #faf8ef;
 }
 
