@@ -1,5 +1,4 @@
-
-.saldo{
+.saldo {
     border-style: solid;
     border-radius: 7px;
     border-color: #E91E2C;
@@ -8,66 +7,81 @@
     background-color: #faf8ef;
 }
 
-.valores{
+.valores {
     text-align: center;
     padding-top: 0.5em;
 }
 
-.valor{
-    color:green;
+.valor {
+    color: green;
 }
 
 
-.ifinan{
+.ifinan {
     border-style: solid;
     border-radius: 8px;
     border-color: #E91E2C;
     margin-top: 2em;
     background-color: #fff;
-    
+
 }
 
-.icones1{
-color: #E91E2C;
+.icones1 {
+    color: #E91E2C;
 }
 
 .mesInfo {
     display: flex;
 }
 
-.avaliacao{
+.avaliacao {
     border-style: solid;
     border-radius: 7px;
     border-color: #E91E2C;
-    margin:auto;
+    margin: auto;
     width: 33vw;
     margin-top: 3em;
     background-color: #faf8ef;
 }
 
-.avaliacoes{
+.avaliacoes {
     list-style: none;
     margin-top: 10px;
 }
 
-.coments{
+.coments {
     margin-top: 2px;
 }
 
-.like{
+.like {
     color: green;
 }
 
-.dislike{
-    color:red;
+.dislike {
+    color: red;
 }
 
-.estrela{
+.estrela {
     color: rgb(204, 204, 23);
 }
 
-@media screen and (max-width: 990px) {
+.scrollable-dropdown {
+    max-height: 200px;
+    /* Defina a altura que preferir */
+    overflow-y: auto;
+}
+
+
+@media (max-width: 460px) {
     .avaliacao {
         display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-style: solid;
+        border-radius: 7px;
+        border-color: #E91E2C;
+        width: 90%;
+        margin-top: 3em;
+        background-color: #faf8ef;
     }
 }

@@ -4,7 +4,8 @@
     border-radius: 7px;
     border-color: #E91E2C;
     margin: auto;
-    width:15em;
+    width:47em;
+    height: 9em;
     background-color: #faf8ef;
 }
 
@@ -19,4 +20,27 @@
 
 .icones1{
     color: #E91E2C;
+}
+
+
+.container {
+    display: flex;
+    gap: 50px; 
+}
+
+.quadrado {
+    width: 600px; 
+    height: 600px; 
+    background-color: transparent; 
+    border: 3px solid red; 
+    border-radius: 7px;
+    margin-top: 3em;
+}
+
+.pagamentos {
+    color: #E91E2C;
+}
+
+.iconessaldo{
+    font-size: 2em;
 }

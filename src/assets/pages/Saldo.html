@@ -1,21 +1,207 @@
 <link rel="stylesheet" href="/src/assets/css/saldo.css">
 <link rel="stylesheet" href="/src/assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="/src/assets/css/saldo.css">
-<body>
-    <div class = 'cointainer saldo'>
-        <h5 class="valores"> <i class="fa-solid fa-sack-dollar icones1"></i>  Seu saldo é de: <span class="valor"><br/>R$ 67.225</span></h5>
-    </div>
-        
-    <div class="container">
-        <div class="quadrado" id="quadrado1"></div>
-        <div class="quadrado" id="quadrado2"></div>
-    </div>
-    <button id="btn1">botão</button>
 
-    <script src="/src/assets/js/Saldo.js" defer></script>
+
+<body>
+  <div class='cointainer saldo'>
+    <h5 class="valores display-6"> <i class="fa-solid fa-sack-dollar icones1"></i> Seu saldo é de: <span
+        class="valor"><br />R$ 67.225</span></h5>
+  </div>
+
+  <div class="container">
+    <div class="quadrado" id="quadrado1">
+      <h4 class="ms-2 my-2">Últimos Recebimentos</h4>
+      <table class="table">
+        <thead class="legenda__titulo">
+          <tr>
+            <th scope="col" class="legenda text-danger"> <i class="fa-solid fa-person iconessaldo"></i> </th>
+            <th scope="col" class="legenda text-danger"> <i class="fa-solid fa-money-bill iconessaldo"></i> </th>
+            <th scope="col" class="legenda text-danger"> <i class="fa-solid fa-calendar-days iconessaldo"></i> </th>
+            <th scope="col" class="legenda text-danger"> <i class="fa-regular fa-clock iconessaldo"></i> </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Roberto Almeida</th>
+            <td>R$54,00</td>
+            <td>25/03</td>
+            <td>09:20</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Neymar da Silva</th>
+            <td>R$100.000,95</td>
+            <td>30/03</td>
+            <td>10:20</td>
+          </tr>
+          <tr>
+            <th scope="row">Ronaldinho</th>
+            <td>R$200,00</td>
+            <td>01/03</td>
+            <td>20:30</td>
+          </tr>
+          <tr>
+            <th scope="row">Lionel Messi</th>
+            <td>R$119,04</td>
+            <td>27/03</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Cristiano Ronaldo</th>
+            <td>R$419,00</td>
+            <td>24/03</td>
+            <td>13:25</td>
+          </tr>
+          <tr>
+            <th scope="row">Ronaldo Fenomeno</th>
+            <td>R$80,00</td>
+            <td>24/03</td>
+            <td>10:30</td>
+          </tr>
+          <tr>
+            <th scope="row">Zidane</th>
+            <td>R$77,00</td>
+            <td>27/03</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Pelé</th>
+            <td>R$35,00</td>
+            <td>27/03</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Marta</th>
+            <td>R$68,00</td>
+            <td>27/03</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Alex Morgan</th>
+            <td>R$11,00</td>
+            <td>27/03</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Formiga</th>
+            <td>R$37,00</td>
+            <td>27/03</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Cristiane</th>
+            <td>R$37,00</td>
+            <td>27/03</td>
+            <td>16:45</td>
+          </tr>
+
+
+        </tbody>
+      </table>
+
+
+
+    </div>
+    <div class="quadrado" id="quadrado2">
+      <h4 class="ms-2 my-2">Últimos Pagamentos</h4>
+      <table class="table">
+        <thead class="legenda__titulo">
+          <tr>
+            <th scope="col" class="legenda text-danger"> <i class="fa-solid fa-person iconessaldo"></i> </th>
+            <th scope="col" class="legenda text-danger"> <i class="fa-solid fa-money-bill iconessaldo"></i> </th>
+            <th scope="col" class="legenda text-danger"> <i class="fa-solid fa-calendar-days iconessaldo"></i> </th>
+            <th scope="col" class="legenda text-danger"> <i class="fa-regular fa-clock iconessaldo"></i> </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Brad Pitty</th>
+            <td class=>R$60,00</td>
+            <td>20/02</td>
+            <td>16:45</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Leonardo Dicaprio</th>
+            <td>R$30,00</td>
+            <td>18/02</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Angelina Jolie</th>
+            <td>R$120,00</td>
+            <td>16/02</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Jennifer Aniston</th>
+            <td>R$250,00</td>
+            <td>15/02</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Adam Sandler</th>
+            <td>R$1000,00</td>
+            <td>10/02</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Chris Evans</th>
+            <td>R$77,00</td>
+            <td>10/02</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Homem Aranha</th>
+            <td>R$2,00</td>
+            <td>08/02</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Scarlet Johanson</th>
+            <td>R$3500,00</td>
+            <td>06/02</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Bruna Marquezine</th>
+            <td>R$2,50</td>
+            <td>05/02</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Fernanda Montenegro</th>
+            <td>R$5200,00</td>
+            <td>04/02</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Toni Ramos</th>
+            <td>R$44,00</td>
+            <td>04/02</td>
+            <td>16:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Leandro Rasum</th>
+            <td>R$25,00</td>
+            <td>01/02</td>
+            <td>16:45</td>
+          </tr>
+
+
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+
+  <script src="/src/assets/js/Saldo.js" defer></script>
+
 </body>
 
-
-
+</html>

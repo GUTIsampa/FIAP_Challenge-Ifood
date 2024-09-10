@@ -122,6 +122,23 @@
         
     }
 
+    @media (max-width: 370px) {
+        .offcanvas-body {
+            align-items: flex-start;
+        }
+
+        .titulo {
+            margin-top: 5%;
+        }
+        
+        .imgLogo {
+            display: none;
+            
+        }
+
+        
+    }
+
 .nav-bar-active {
     border-bottom: 2px solid blue;
     margin-top: 20px;
