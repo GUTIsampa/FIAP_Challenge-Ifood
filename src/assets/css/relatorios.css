@@ -78,10 +78,9 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-  /* Ajusta o espaçamento das setas de navegação */
-  margin-left: 0px; /* Ajusta a margem esquerda da seta anterior */
+  margin-left: 0px; 
   margin-right: 0px;
-  width: 1em; /* Ajusta a margem direita da seta próxima */
+  width: 1em; 
 }
 
 .carousel-control-prev {
@@ -94,14 +93,13 @@
 
 .carousel-indicators {
   bottom: 0px;
-  height: 2px; /* Ajusta a distância do fundo do carrossel */
+  height: 2px; 
 }
 
 .carousel-indicators button {
-  /* Ajusta o tamanho e a forma dos botões de indicador, se necessário */
   width: 10px;
   height: 2px;
-  margin: 0 3px; /* Ajusta o espaçamento entre os indicadores */
+  margin: 0 3px;
 }
 
 .graficos{
