@@ -1,5 +1,8 @@
 
 .saldo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border-style: solid;
     border-radius: 7px;
     border-color: #E91E2C;
@@ -45,3 +48,23 @@
     font-size: 2em;
 }
 
+.optTransferencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.optTransferencia button {
+    border: 2px solid #E91E2C;
+    border-radius: 5px;
+}
+
+.optTransferencia h6 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.optTransferencia button img {
+    max-width: 90%;
+}

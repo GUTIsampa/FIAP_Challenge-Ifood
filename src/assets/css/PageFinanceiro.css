@@ -1,11 +1,21 @@
-.saldo {
+.boas-vindas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     border-style: solid;
     border-radius: 7px;
     border-color: #E91E2C;
     margin: auto;
-    width: 15em;
+    height: 150px;
+    width: 50%;
     background-color: #faf8ef;
 }
+
+.saudacoes {
+    text-align: center;
+}
+
 
 .valores {
     text-align: center;
@@ -39,14 +49,42 @@
     border-radius: 7px;
     border-color: #E91E2C;
     margin: auto;
-    width: 33vw;
-    margin-top: 3em;
+    width: 25vw;
     background-color: #faf8ef;
+}
+
+.atualizacoes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid blue;
 }
 
 .avaliacoes {
     list-style: none;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.estadoLoja {
+        border-style: solid;
+        border-radius: 7px;
+        border-color: #E91E2C;
+        width: 20%;
+        height: 150px;
+        background-color: #faf8ef;
+}
+
+.faturamentoDoDia {
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #E91E2C;
+    height: 150px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .coments {
@@ -73,6 +111,29 @@
 
 
 @media (max-width: 460px) {
+    
+    .boas-vindas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border-style: solid;
+        border-radius: 7px;
+        border-color: #E91E2C;
+        height: 150px;
+        width: 100%;
+        background-color: #faf8ef;
+    }
+
+    .saudacoes h1 {
+        font-size: 23px;
+    }
+
+    .img-food img {
+        width: 80%;
+    }
+
+
     .avaliacao {
         display: flex;
         justify-content: flex-start;
@@ -80,8 +141,29 @@
         border-style: solid;
         border-radius: 7px;
         border-color: #E91E2C;
-        width: 90%;
-        margin-top: 3em;
+        width: 100%;
         background-color: #faf8ef;
+    }
+
+    .estadoLoja {
+
+        width: 100%;
+    }
+
+    .atualizacoes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .faturamentoDoDia {
+        width: 100%;
+    }
+
+    .faturamentoDoDia h5 {
+        font-size: 23px;
     }
 }
