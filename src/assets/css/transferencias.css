@@ -1,5 +1,5 @@
 
-.saldo{
+.optPagagmentos {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,4 +67,21 @@
 
 .optTransferencia button img {
     max-width: 90%;
+}
+
+@media (max-width: 460px) {
+
+    .container {
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .quadrado {
+       
+
+    }
+
+
 }
