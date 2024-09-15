@@ -169,3 +169,20 @@
 .divexportar{
   margin-top: 2em
 }
+
+.salvar{
+  background-color: #fff;
+  border-width: 1px;
+  border-color:  #E91E2C;
+  color: #E91E2C;
+  margin-top: 2em;
+  
+
+}
+
+.salvar:hover{
+  background-color:  #E91E2C;
+  border-width: 1px;
+  border-color:#fff;
+  color: #fff;
+}
