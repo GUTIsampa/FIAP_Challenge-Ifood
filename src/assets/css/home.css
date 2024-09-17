@@ -41,12 +41,12 @@
 }
 
 
-.menusandu {
+.menuSandu {
     display: flex;
     justify-content: flex-start;
 }
 
-.menusandu img {
+.menuSandu img {
     width: 38px;
 }
 
@@ -68,7 +68,7 @@
     gap: 10px;
 }
 
-.logosanduba {
+.logoSanduba {
     display: flex;
     margin: 2em;
 }

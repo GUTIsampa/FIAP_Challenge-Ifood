@@ -39,6 +39,7 @@
     background-color: transparent; 
     border: 3px solid red; 
     border-radius: 7px;
+    box-shadow: 10px 5px 5px rgb(116, 116, 116);
     margin: auto;
     margin-top: 3em;
 }
@@ -47,7 +48,7 @@
     color: #E91E2C;
 }
 
-.iconessaldo{
+.iconeSaldo{
     font-size: 2em;
 }
 
@@ -74,6 +75,7 @@
     border-color: #E91E2C;
     margin-top: 2em;
     background-color: #fff;
+    box-shadow: 10px 5px 5px rgb(116, 116, 116);
 }
 
 .carousel-control-prev-icon,
@@ -194,18 +196,4 @@
     }
 }
 
-@media (max-width: 360px){
-  .tabelasaldo{
-      font-size: 1.5vh;
-  }
-  .legenda{
-      font-size: 1.5vh;
-  }
-}
-
-@media (min-height: 1200px){
-    .tabelasaldodesk{
-        font-size: 2vw;
-    }
-}
 

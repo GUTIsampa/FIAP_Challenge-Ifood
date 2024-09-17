@@ -45,6 +45,7 @@
     background-color: transparent; 
     border: 3px solid red; 
     border-radius: 7px;
+    box-shadow: 10px 5px 5px rgb(116, 116, 116);
     margin: auto;
     margin-top: 3em;
   }
@@ -136,6 +137,7 @@
     border-color: #E91E2C;
     margin-top: 2em;
     background-color: #fff;
+    box-shadow: 10px 5px 5px rgb(116, 116, 116);
     
 }
 
