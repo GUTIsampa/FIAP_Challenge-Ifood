@@ -109,8 +109,68 @@
 }
 
 
-@media (max-width: 460px) {
+@media (max-width: 1300px) {
     
+    .boas-vindas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border-style: solid;
+        border-radius: 7px;
+        border-color: #E91E2C;
+        height: 150px;
+        width: 100%;
+        background-color: #faf8ef;
+    }
+
+    .saudacoes {
+        max-width: 100%;
+    }
+
+    .saudacoes h1 {
+        font-size: 23px;
+    }
+
+    .img-food img {
+        width: 80%;
+    }
+
+
+    .avaliacao {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-style: solid;
+        border-radius: 7px;
+        border-color: #E91E2C;
+        width: 100%;
+        background-color: #faf8ef;
+    }
+
+    .estadoLoja {
+
+        width: 100%;
+    }
+
+    .atualizacoes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .faturamentoDoDia {
+        width: 100%;
+    }
+
+    .faturamentoDoDia h5 {
+        font-size: 23px;
+    }
+}
+@media (max-width: 768px) {
     .boas-vindas {
         display: flex;
         flex-direction: row;
