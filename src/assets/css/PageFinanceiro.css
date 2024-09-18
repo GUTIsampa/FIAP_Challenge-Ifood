@@ -71,7 +71,7 @@
         border-radius: 7px;
         border-color: #E91E2C;
         width: 20%;
-        height: 150px;
+        height: 10%;
         background-color: #faf8ef;
 }
 
@@ -84,6 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #faf8ef;
 }
 
 .coments {

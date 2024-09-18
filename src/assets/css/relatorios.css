@@ -27,6 +27,10 @@
   align-items: center; 
 }
 
+.link__expandir {
+  color: #E91E2C;
+}
+
 
 @media (min-width: 769px) {
   .quadro {
